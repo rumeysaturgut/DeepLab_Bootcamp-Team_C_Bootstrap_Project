@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe Vcard</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">  
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/all.js"></script>
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="row firstRow px-0 mx-0">
+            <!-- PROFILE PHOTO -->
+            <div class="col-md-4 px-0 mx-0" id="main-header">
+                <img src="./img/person1.jpg" alt="John Doe">
+            </div>
+            <!-- INFORMATIONS -->
+            <div class="col-md-8 px-0 mx-0">
+                <!-- NAME & SOCIAL MEDIA-->
+                <div class="row px-0 mx-0 text-white bg-dark">
+                    <div class="col-12 px-0 mx-0">
+                        <div class="grid-container header">
+                            <div class="grid-item name px-0 mx-0 font-weight-light"><span>John Doe</span></div>
+                            <div class="grid-item twitter px-0 mx-0"><a href="www.twitter.com"><i class="fab fa-twitter text-white"></i></a></div>
+                            <div class="grid-item facebook px-0 mx-0"><a href="www.facebook.com"><i class="fab fa-facebook text-white"></i></a></div>
+                            <div class="grid-item instagram px-0 mx-0"><a href="www.instagram.com"><i class="fab fa-instagram text-white"></i></a></div>
+                            <div class="grid-item github px-0 mx-0"><a href="www.github.com"><i class="fab fa-github text-white"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- JOB DESCRIPTION -->
+                <div class="row job-desc px-0 mx-0 bg-black text-white">
+                    <div class="col-12 job-decs-item"><span>Experienced Full Stack Web Developer</span></div>
+                </div>
+                <!-- NAVBAR -->
+                <div class="row px-0 mx-0 text-white">
+                    <div class="col-12 px-0 mx-0">
+                        <div class="menu">
+                            <ul class="nav nav-pills menu-tabs">
+                                <li class="home active bg-primary px-0 mx-0">
+                                    <a href="#tab1" class="text-white" data-toggle="tab">
+                                        <i class="fab fas fa-home"></i>
+                                    </a>
+                                    <a href="#tab1" class="text-white" data-toggle="tab">Home</a>
+                                </li>
+                                <li class="resume bg-success px-0 mx-0">
+                                    <a href="#tab2" class="text-white" data-toggle="tab">
+                                        <i class="fab fas fa-graduation-cap"></i>
+                                    </a>
+                                    <a href="#tab2" class="text-white" data-toggle="tab">Resume</a>
+                                </li>
+                                <li class="work bg-warning px-0 mx-0">
+                                    <a href="#tab3" class="text-white" data-toggle="tab">
+                                        <i class="fab fas fa-folder-open"></i>
+                                    </a>
+                                    <a href="#tab3" class="text-white" data-toggle="tab">Work</a>
+                                </li>
+                                <li class="contact bg-danger px-0 mx-0">
+                                    <a href="#tab4" class="text-white" data-toggle="tab">
+                                        <i class="fab fas fa-envelope"></i>
+                                    </a>
+                                    <a href="#tab4" class="text-white" data-toggle="tab">Contact</a>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR CONTENTS -->
+    <div class="tab-content clearfix">
+        <!-- HOME TAB -->
+        <div class="tab-pane active" id="tab1">
+            <div class="container">
+                <!-- PAGE HEADER -->
+                <div class="row px-0 mx-0 bg-primary">
+                    <div class="col text-white mt-5 mb-5 ml-2">
+                        <h2>Welcome to my page</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar mi lacus, sodales cursus velit.</p>
+                    </div>
+                </div>
+                <!-- PAGE CONTENT -->
+                <div class="card mt-0">
+                    <div class="card-body pt-5 pb-5">
+                        <div class="row">
+                            <div class="col text-dark mb-5">
+                                <h2 class="card-title text-capitalize">My Skills</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mx-auto">
+                                <!-- progress bar single -->
+                                <h4 class="text-dark">HTML</h4>
+                                <div class="progress bg-secondary">
+                                <div class="progress-bar bg-success" style="width: 100%"></div>
+                                </div>
+                                <!-- progress bar single -->
+                                <h4 class="text-dark mt-2">CSS</h4>
+                                <div class="progress bg-secondary">
+                                <div class="progress-bar bg-success" style="width: 100%"></div>
+                                </div>
+                                <!-- progress bar single -->
+                                <h4 class="text-dark mt-2">JavaScript</h4>
+                                <div class="progress bg-secondary">
+                                <div class="progress-bar bg-success" style="width: 90%"></div>
+                                </div>
+                                <!-- progress bar single -->
+                                <h4 class="text-dark mt-2">PHP</h4>
+                                <div class="progress bg-secondary">
+                                <div class="progress-bar bg-success" style="width: 80%"></div>
+                                </div>
+                                <!-- progress bar single -->
+                                <h4 class="text-dark mt-2">Python</h4>
+                                <div class="progress bg-secondary">
+                                <div class="progress-bar bg-success" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>                
+            </div>
+        </div>
+        <!-- RESUME TAB -->
+        <div class="tab-pane" id="tab2">
+            <div class="container">   
+                <!-- PAGE HEADER -->
+                <div class="row px-0 mx-0 bg-success">
+                    <div class="col text-white mt-5 mb-5 ml-2">
+                        <h2>My Resume</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in varius lacus.</p>
+                    </div>
+                </div>         
+                <!-- PAGE CONTENT --> 
+                <div class="card">
+                    <div class="card-body pt-5 pb-5">
+                        <h2 class="card-title">Where have I worked?</h2>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ex illo enim nobis consectetur ut!</p>
+                        <div class="row">
+                            <!-- card single -->
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Devmasters</h4>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, quibusdam.</p>
+                                        <p class="bg-dark text-white text-left p-2">Position: Full Stack Developer</p>
+                                        <p class="bg-dark text-white text-left p-2">Phone: (444) 444-4444</p>
+                                    </div>
+                                    <div class="card-footer text-left">
+                                        <p>Dates: 2015 - 2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card single -->
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Websites Pro</h4>
+                                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, ad.</p>
+                                        <p class="bg-dark text-white text-left p-2">Position: Front End Developer</p>
+                                        <p class="bg-dark text-white text-left p-2">Phone: (333) 333-3333</p>
+                                    </div>
+                                    <div class="card-footer text-left">
+                                        <p>Dates: 2013 - 2015</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card single -->
+                            <div class="col-sm-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">123 Designs</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, modi.</p>
+                                        <p class="bg-dark text-white text-left p-2">Position: Designer</p>
+                                        <p class="bg-dark text-white text-left p-2">Phone: (222) 222-2222</p>
+                                    </div>
+                                    <div class="card-footer text-left">
+                                        <p>Dates: 2010 - 2013</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- WORK TAB -->
+        <div class="tab-pane" id="tab3">
+            <div class="container">
+                <!-- PAGE HEADER-->
+                <div class="row px-0 mx-0 bg-warning">
+                    <div class="col mt-5 mb-5 ml-2">
+                        <h2>My Portfolio</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, eius?</p>
+                    </div>
+                </div>
+            </div>    
+            <!-- PAGE CONTENT -->               
+            <div class="container">
+                <div class="card mt-0">
+                    <div class="card-body pt-5 pb-5">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <h2 class="card-title">What have I built?</h2>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, pariatur.</p>
+                            </div>
+                        </div>
+                        <!-- PICTURES -->
+                        <div class="row picture px-0 mx-0">
+                            <div class="col-lg-3"><img src="./img/1.jpg" class="figure-img img-fluid col-xl"  alt="1"></div>
+                            <div class="col-lg-3"><img src="./img/2.jpg" class="figure-img img-fluid col-xl"  alt="2"></div>
+                            <div class="col-lg-3"><img src="./img/3.jpg" class="figure-img img-fluid col-xl"  alt="3"></div>
+                            <div class="col-lg-3"><img src="./img/4.jpg" class="figure-img img-fluid col-xl"  alt="4"></div>
+                        </div>
+                        <div class="row picture px-0 mx-0">
+                            <div class="col-lg-3"><img src="./img/5.jpg" class="figure-img img-fluid col-xl"  alt="5"></div>
+                            <div class="col-lg-3"><img src="./img/6.jpg" class="figure-img img-fluid col-xl"  alt="6"></div>
+                            <div class="col-lg-3"><img src="./img/7.jpg" class="figure-img img-fluid col-xl"  alt="7"></div>
+                            <div class="col-lg-3"><img src="./img/8.jpg" class="figure-img img-fluid col-xl"  alt="8"></div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <!-- CONTACT TAB -->
+        <div class="tab-pane" id="tab4">
+            <div class="container">
+                <!-- PAGE HEADER -->
+                <div class="row px-0 mx-0 bg-danger text-white">
+                    <div class="col mt-5 mb-5 ml-2">
+                        <h2>Contact</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mattis quis purus nec pharetra.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- PAGE CONTENT -->
+            <div class="container">
+                <div class="card mt-0">
+                    <div class="card-body pt-5 pb-4">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <h2 class="card-title">Get in touch</h2>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, autem. </p>    
+                            </div>
+                        </div>            
+                    
+                        <!-- CONTACT FORM -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <form class="form-horizontal" id="contact_form">
+                                    <fieldset>
+                                        <!--Name-->
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-danger"><i class="fa fa-user text-white"></i></div>
+                                                </div>
+                                                <input placeholder="Name" class="form-control bg-dark" type="text">
+                                            </div>                              
+                                        </div>                                        
+                                        <!--Email-->
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-danger"><i class="fa fa-envelope text-white"></i></div>
+                                                </div>
+                                                <input placeholder="E-Mail Address" class="form-control bg-dark" type="text">
+                                            </div>
+                                        </div>                                        
+                                        <!--Message-->
+                                        <div class="form-group">
+                                            <div class="input-group mb-2">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text bg-danger"><i class="fa fa-pencil-alt text-white"></i></div>
+                                                </div>
+                                                <textarea class="form-control bg-dark" rows="5" placeholder="Message"></textarea>                                    
+                                            </div>
+                                        </div>  
+                                        <!-- Button-->                                      
+                                        <div class="form-group">
+                                            <div class="text-center">
+                                                <button class="btn btn-danger btn-block">Submit</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>                        
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card-footer bg-dark">
+                    <a href="#" class="btn btn-outline-light m-4"> <i class="fa fa-cloud"></i> Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+</html>
